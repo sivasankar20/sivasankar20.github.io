@@ -1,0 +1,140 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-image: url("b.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+a, a:active, a:visited, a:hover{
+	text-decoration: none;
+	color: white;
+
+}
+nav{
+	height: 70px;
+	background: rgba(37, 95, 134, 0.418);
+	box-shadow: 1px 10px 30px #576ed3;
+}
+nav img{
+	height: 100px;
+	position: absolute;
+	left: 45%;
+	top: 20px;
+	border-radius: 100%;
+	border: 2px solid rgb(80, 74, 74);
+}
+nav a.nav{
+	padding-left: 6.3em;
+	padding-right: 6.3em;
+	line-height: 4em;
+	font-size: 1.2em;
+	font-weight: 600;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+nav a:hover{
+	/* color: rgb(185, 182, 182); */
+	text-shadow: 2px 1px 10px #000000;
+}
+nav a.active{
+	color: rgb(185, 182, 182);
+	
+}
+nav a.active:hover{
+	color: rgb(185, 182, 182);
+	text-shadow: none;
+}
+div.quote{
+	margin: 0;
+  	position: absolute;
+  	top: 86%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 2em;
+	font-weight: 800;
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+/* contact */
+div.contact{
+	background: white;
+	width: 50%;
+	margin: 0;
+  	position: absolute;
+  	top: 60%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+	  box-shadow: 1px 10px 30px black; 
+}
+div.contact ul{
+	list-style: none;
+	
+}
+div.contact ul li{
+	padding: 2em;
+	padding-left: 10em;
+}
+div.contact img{
+	height: 80px;
+
+}
+div.contact ul li .text{
+	 font-size: 1.4em;
+	 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	 font-weight: 600;
+}
+div.contact ul li a{
+	color: black;
+}
+div.academics{
+	background: white;
+	width: 50%;
+	margin: 0;
+  	position: absolute;
+  	top: 60%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+	  box-shadow: 1px 10px 30px black; 
+}
+
+div.academics .content{
+	padding: 2.8em;
+	font-size: 2.2em;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-weight: 600;
+	line-height: 1.3em;
+}
+
+div.interest{
+	background: white;
+	width: 50%;
+	margin: 0;
+  	position: absolute;
+  	top: 60%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+	  box-shadow: 1px 10px 30px black; 
+}
+
+div.interest .content{
+	padding: 2.8em;
+	font-size: 2.2em;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-weight: 600;
+	line-height: 1.3em;
+}
+
+.fadin{
+            animation: fadein 2s;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+nav a img:hover{
+	box-shadow: 0.5px 0.5px 15px black; 
+}
